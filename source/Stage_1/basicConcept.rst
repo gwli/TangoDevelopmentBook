@@ -115,3 +115,11 @@ TangoEvent
 
   void Engine::looperIteration(int looperIdent)  //update the sensor data
 
+
+
+视觉理程的计算
+==============
+
+特征提取，特征匹配跟踪到运动估计的理论框架。寻找特征点，然后利用三点或五点法
+求本征方程。立体里程计算是有绝对的尺寸，而单目是没有，但时可以相机的本身运动。
+来得到。
